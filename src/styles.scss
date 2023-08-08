@@ -1,1 +1,32 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+.container {
+    h1 {
+        color: #6c757d;
+    }
+
+    form {
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        button {
+            background-color: #17a2b8;
+            border-color: #17a2b8;
+
+            &:hover {
+                background-color: #138496;
+                border-color: #138496;
+            }
+        }
+    }
+}
